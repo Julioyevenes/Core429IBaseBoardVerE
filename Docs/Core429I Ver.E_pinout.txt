@@ -1,0 +1,148 @@
+PA0      USER_BTN1
+PA1      REF_CLK (RMII)
+PA2      MDIO    (RMII)
+PA3      RX (USART2)
+PA4      USER_BTN2
+PA5      USER_BTN3
+PA6      G2 (LTDC)
+PA7      CRS_DV  (RMII)
+PA8
+PA9      VBUS (OTG1_FS)
+PA10     ID   (OTG1_FS)
+PA11     DM   (OTG1_FS)
+PA12     DP   (OTG1_FS)
+PA13
+PA14
+PA15     WS_A  (I2S3)
+
+PB0      OTG2_VBUSEN
+PB1      OTG2_OC
+PB2
+PB3      SCK_A (I2S3)
+PB4      SD_B  (I2S3)
+PB5
+PB6      SCL  (I2C1)
+PB7      SDA  (I2C1)
+PB8      RX (CAN1)
+PB9      TX (CAN1)
+PB10
+PB11     TX_EN   (RMII)
+PB12     ID   (OTG2_FS)
+PB13     VBUS (OTG2_FS)
+PB14     DM   (OTG2_FS)
+PB15     DP   (OTG2_FS)
+
+PC0
+PC1      MDC     (RMII)
+PC2
+PC3
+PC4      RXD0    (RMII)
+PC5      RXD1    (RMII)
+PC6      A_NRST
+PC7      MCLK_A(I2S3)
+PC8      D0  (SDIO)
+PC9      D1  (SDIO)
+PC10     D2  (SDIO)
+PC11     D3  (SDIO)
+PC12     CLK (SDIO)
+PC13
+PC14
+PC15
+
+PD0      D2   (FMC)
+PD1      D3   (FMC)
+PD2      CMD (SDIO)
+PD3      SD_CD
+PD4      SD_WE
+PD5      TX (USART2)
+PD6      SD_A  (I2S3)
+PD7
+PD8      D13  (FMC)
+PD9      D14  (FMC)
+PD10     D15  (FMC)
+PD11
+PD12     OTG1_VBUSEN
+PD13     OTG1_OC
+PD14     D0   (FMC)
+PD15     D1   (FMC)
+
+PE0      NBL0 (FMC)
+PE1      NBL1 (FMC)
+PE2      ACC_INT1
+PE3      ACC_INT2
+PE4      B0 (LTDC)
+PE5      G0 (LTDC)
+PE6      G1 (LTDC)
+PE7      D4   (FMC)
+PE8      D5   (FMC)
+PE9      D6   (FMC)
+PE10     D7   (FMC)
+PE11     D8   (FMC)
+PE12     D9   (FMC)
+PE13     D10  (FMC)
+PE14     D11  (FMC)
+PE15     D12  (FMC)
+
+PF0      A0  (FMC)
+PF1      A1  (FMC)
+PF2      A2  (FMC)
+PF3      A3  (FMC)
+PF4      A4  (FMC)
+PF5      A5  (FMC)
+PF6      NSS  (SPI5)
+PF7      SCK  (SPI5)
+PF8      MISO (SPI5)
+PF9      MOSI (SPI5)
+PF10     DE    (LTDC)
+PF11     SDNRAS (FMC)
+PF12     A6  (FMC)
+PF13     A7  (FMC) 
+PF14     A8  (FMC)
+PF15     A9  (FMC)
+
+PG0      A10 (FMC)
+PG1      A11 (FMC)
+PG2      A12 (FMC)
+PG3      TP_INT
+PG4      BA0 (FMC)
+PG5      BA1 (FMC)
+PG6      R7 (LTDC)
+PG7      CLK   (LTDC)
+PG8      SDCLK  (FMC)
+PG9
+PG10     B2 (LTDC)
+PG11     B3 (LTDC)
+PG12     B1 (LTDC)
+PG13     TXD0    (RMII)
+PG14     TXD1    (RMII)
+PG15     SDNCAS (FMC)
+
+PH0
+PH1
+PH2      R0 (LTDC)
+PH3      R1 (LTDC)
+PH4
+PH5      SDNWE  (FMC)
+PH6      SDNE1  (FMC)
+PH7      SDCKE1 (FMC)
+PH8      R2 (LTDC)
+PH9      R3 (LTDC)
+PH10     R4 (LTDC)
+PH11     R5 (LTDC)
+PH12     R6 (LTDC)
+PH13
+PH14     G3 (LTDC)
+PH15     G4 (LTDC)
+
+PI0      G5 (LTDC)
+PI1      G6 (LTDC)
+PI2      G7 (LTDC)
+PI3
+PI4      B4 (LTDC)
+PI5      B5 (LTDC)
+PI6      B6 (LTDC)
+PI7      B7 (LTDC)
+PI8      LCD_BL
+PI9      VSYNC (LTDC)
+PI10     HSYNC (LTDC)
+PI11

@@ -1,0 +1,99 @@
+SDRAM(16bit): PF0      A0  (FMC)      PD14     D0   (FMC)      PG8         SDCLK  (FMC)
+              PF1      A1  (FMC)      PD15     D1   (FMC)      PH5         SDNWE  (FMC)
+              PF2      A2  (FMC)      PD0      D2   (FMC)      PF11        SDNRAS (FMC)
+              PF3      A3  (FMC)      PD1      D3   (FMC)      PG15        SDNCAS (FMC)
+              PF4      A4  (FMC)      PE7      D4   (FMC)      PH6         SDNE1  (FMC)
+              PF5      A5  (FMC)      PE8      D5   (FMC)      PH7         SDCKE1 (FMC)
+              PF12     A6  (FMC)      PE9      D6   (FMC)
+              PF13     A7  (FMC)      PE10     D7   (FMC)
+              PF14     A8  (FMC)      PE11     D8   (FMC)
+              PF15     A9  (FMC)      PE12     D9   (FMC)
+              PG0      A10 (FMC)      PE13     D10  (FMC)
+              PG1      A11 (FMC)      PE14     D11  (FMC)
+              PG2      A12 (FMC)      PE15     D12  (FMC)
+                                      PD8      D13  (FMC)
+              PG4      BA0 (FMC)      PD9      D14  (FMC)
+              PG5      BA1 (FMC)      PD10     D15  (FMC)
+
+                                      PE0      NBL0 (FMC)
+                                      PE1      NBL1 (FMC)
+
+Display(24bitRGB): PH2      R0 (LTDC)      PE5      G0 (LTDC)      PE4      B0 (LTDC)      PF10     DE    (LTDC)
+	           PH3      R1 (LTDC)      PE6      G1 (LTDC)      PG12     B1 (LTDC)      PG7      CLK   (LTDC)
+	           PH8      R2 (LTDC)      PA6      G2 (LTDC)      PG10     B2 (LTDC)      PI9      VSYNC (LTDC)
+	           PH9      R3 (LTDC)      PH14     G3 (LTDC)      PG11     B3 (LTDC)      PI10     HSYNC (LTDC)
+	           PH10     R4 (LTDC)      PH15     G4 (LTDC)      PI4      B4 (LTDC)  
+	           PH11     R5 (LTDC)      PI0      G5 (LTDC)      PI5      B5 (LTDC)      PI8      LCD_BL
+	           PH12     R6 (LTDC)      PI1      G6 (LTDC)      PI6      B6 (LTDC)
+	           PG6      R7 (LTDC)      PI2      G7 (LTDC)      PI7      B7 (LTDC)
+
+Codec(Audio): PD6      SD_A  (I2S3)      
+              PB4      SD_B  (I2S3)      
+              PA15     WS_A  (I2S3)
+              PB3      SCK_A (I2S3)
+              PC7      MCLK_A(I2S3)
+
+              PB6      SCL  (I2C1)
+              PB7      SDA  (I2C1)
+
+              PC6      A_NRST
+
+Touch: PF8      MISO (SPI5)
+       PF9      MOSI (SPI5)
+       PF7      SCK  (SPI5)
+       PF6      NSS  (SPI5)
+
+       PG3      TP_INT
+
+Switches: PA0      USER_BTN1
+          PA4      USER_BTN2
+          PA5      USER_BTN3
+
+Accelerometer: PB6      SCL  (I2C1)
+               PB7      SDA  (I2C1)
+
+               PE2      ACC_INT1
+               PE3      ACC_INT2
+
+SD Card(4bit): PC8      D0  (SDIO)
+               PC9      D1  (SDIO)
+	       PC10     D2  (SDIO)
+	       PC11     D3  (SDIO)
+
+	       PC12     CLK (SDIO)
+               PD2      CMD (SDIO)
+
+               PD3      SD_CD
+               PD4      SD_WE
+
+USB(OTG1): PA9      VBUS (OTG1_FS)
+           PA10     ID   (OTG1_FS)
+           PA11     DM   (OTG1_FS)
+           PA12     DP   (OTG1_FS)
+
+           PD12      OTG1_VBUSEN
+           PD13      OTG1_OC
+
+USB(OTG2): PB13     VBUS (OTG2_FS)
+           PB12     ID   (OTG2_FS)
+           PB14     DM   (OTG2_FS)
+           PB15     DP   (OTG2_FS)
+
+           PB0      OTG2_VBUSEN
+           PB1      OTG2_OC
+
+Ethernet: PG13     TXD0    (RMII)
+	  PG14     TXD1    (RMII)
+          PB11     TX_EN   (RMII)
+          PC4      RXD0    (RMII)
+	  PC5      RXD1    (RMII)
+	  PA7      CRS_DV  (RMII)
+          PA1      REF_CLK (RMII)
+	  PC1      MDC     (RMII)
+	  PA2      MDIO    (RMII)
+
+Serial: PA3      RX (USART2)      PB6      SCL  (I2C1)
+        PD5      TX (USART2)      PB7      SDA  (I2C1)
+
+Industrial: PB8      RX (CAN1)
+            PB9      TX (CAN1)
