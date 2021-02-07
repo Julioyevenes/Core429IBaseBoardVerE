@@ -14,6 +14,7 @@
   * 3 x user switch.
   * 2 x USB FS OTG.
   * SD card (4 bit).
+  * [LIS2DH12](https://www.st.com/en/mems-and-sensors/lis2dh12.html) MEMS 3-axis accelerometer.  
   * [LAN8742](https://www.microchip.com/wwwproducts/en/LAN8742) Ethernet PHY (10/100 Mbit/s).
   * [CS42L52](https://www.cirrus.com/products/cs42l52/) 24-bit, low power stereo audio codec.
   * TFT LCD 40-pin connector with SPI signals (for resistive touch controller).
